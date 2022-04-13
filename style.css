@@ -18,3 +18,11 @@ font-style: italic;
 footer p {
 font-size: 0.8em;
 }
+table {
+    width:600px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 2px;
+}
