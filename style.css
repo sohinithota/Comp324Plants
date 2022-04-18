@@ -76,3 +76,6 @@ from week 4
 .center{
     text-align: center;
 }
+
+@import 'nav.css'
+    
