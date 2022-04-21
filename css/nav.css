@@ -67,3 +67,12 @@
 .nav-items a img{
     width: 30px;
 }
+
+.topnav{
+    text-align: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f5f5f5;
+    z-index: 9;
+}

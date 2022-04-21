@@ -2,6 +2,20 @@ h2{
     text-align: center;
 
 }
+h1{
+width: 3%;
+position: relative;
+top: 60px;
+left: 90%
+cursor: pointer;
+}
+h1:before{
+content: attr(data-count);
+}
+
+h1.zero:before{
+opacity:1;
+}
 
 .product-grid{
     padding: 0 10vw;
@@ -44,7 +58,9 @@ h2{
 .wishlistButton{
     opacity:1;
 }
-
+.cartButton{
+opacity:1;
+}
 .product-card:hover .card-btn{
     opacity: 1;
 }
