@@ -17,9 +17,9 @@ topnav.innerHTML =`
     <div class="center">
       <ul id = "menutabs">
          <li><a href="navigation/house-plants.html">house plants</a></li>
-         <li><a href="../navigation/succulents.html">succulents</a></li>
-         <li><a href="../navigation/planters.html">planters</a></li>
-         <li><a href="../navigation/plant-accessories.html">plant accessories</a></li>
+         <li><a href="navigation/succulents.html">succulents</a></li>
+         <li><a href="navigation/planters.html">planters</a></li>
+         <li><a href="navigation/plant-accessories.html">plant accessories</a></li>
        </ul>
     </div>
     </div>
