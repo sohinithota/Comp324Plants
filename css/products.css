@@ -44,7 +44,9 @@ h2{
 .wishlistButton{
     opacity:1;
 }
-
+.cartButton{
+opacity:1;
+}
 .product-card:hover .card-btn{
     opacity: 1;
 }
