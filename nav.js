@@ -1,9 +1,21 @@
+
 const createTopNav = () => {
 let topnav= document.querySelector('.topnav')
+/*
+
+var link = document.createElement('link');
+// set the attributes for link element
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = 'nav.css';
+// Get HTML head element to append
+// link element to it
+document.getElementsByTagName('HEAD')[0].appendChild(link);
+*/
 
 topnav.innerHTML =`
     <div class = "nav">
-    <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+    <a href="#"><img id="logo" src="images/Plantipush.jpg"></a>
     <div class="nav-items">
       <div class="search">
       <input type="text" class="search-box" placeholder="search product">
