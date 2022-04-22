@@ -144,4 +144,21 @@ input[type=submit]:hover {
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 @import 'nav.css';
-    
+
+.search-results{
+    width: 100%;
+    padding: 60px 0;
+    align-content: center;
+}
+
+.heading{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 200;
+    margin-bottom: 40px;
+    padding: 0 10vw;
+}
+
+.heading span{
+    font-weight: 400;
+}
