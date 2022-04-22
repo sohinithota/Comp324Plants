@@ -8,99 +8,40 @@
     <script src="https://kit.fontawesome.com/7ddbd1490a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <title>Plant Store</title>
-    <nav class= "topnav">
-        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
-        <div class="nav-items">
-            <div class="search">
-                <input type="text" class="search-box" placeholder="search product">
-                <button class="search-btn">search</button>
-                <a href="../index.html">Home</a>
-                <a href="login.html"><i class="fa-solid fa-user"></i></a>
-                <a href="compliant.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                <a href="wishlist.html"><i class="fa-solid fa-list"></i></a>
-            </div>
-        </div>
-        <div class="center">
-            <ul id = "menutabs">
-                <li><a href="../navigation/house-plants.html">house plants</a></li>
-                <li><a href="navigation/succulents.html">succulents</a></li>
-                <li><a href="../navigation/planters.html">planters</a></li>
-                <li><a href="navigation/plant-acessories.html">plant accessories</a></li>
-            </ul>
-        </div>
-    </nav>
+    <nav class= "topnav"></nav>
+    <script src="nav.js"></script>
 </head>
 
 <body >
 
 <form class = "center" action="action_page.php" style="border:0px solid #ccc">
-<div class="container">
-    <h1 style = "color:green">Login</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
+    <div class="container">
+        <h1 style = "color:green">Login</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
 
 
-    <label>
-        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-    </label>
+        <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
 
-    <p>By creating an account you agree to our <a href="terms.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        <p>By creating an account you agree to our <a href="terms.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
-    <div class="clearfix">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Login</button>
+        <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Login</button>
+        </div>
     </div>
-</div>
-</form>
-<p class = center>---</p>
-</body>
-
-<footer>
-    <table class="centertable">
-
-        <tr>
-            <th style = "color:green">About</th>
-            <th style = "color:green">Services</th>
-            <th style = "color:green">For users</th>
-        </tr>
-
-        <tr>
-            <td><a href="Footer/AboutUs.html" >About us</a></td>
-            <td><a href="shipping.html">Shipping</a></td>
-            <td><a href="Login.html">User Login</a></td>
-        </tr>
-
-        <tr>
-            <td><a href="terms.html">Terms & Condition</a></td>
-            <td><a href>Services</a></td>
-            <td><a href="Register.html">User Register</a></td>
-        </tr>
-
-
-
-        <tr>
-            <td><a href="../index.html">Home</a></td>
-            <td><a href="compliant.html">Open Dispute</a></td>
-            <td><a href>My Carts</a></td>
-
-        </tr>
-    </table>
-    <aside class = centertable>
-        <h6 class="title">Our app</h6> <a href="#"  data-abc="true"><img class="img-responsive" src="https://i.imgur.com/nkZP7fe.png" height="40"></a>
-        <a href="#"  data-abc="true"><img class="img-responsive" src="https://i.imgur.com/47q2YGt.png" height="40" width="123"></a>
-    </aside>
-
-    </section>
-    <section class = centertable>
-        <p> © 2022 Plantstill All rights reserved </p>
-        <p target="_blank" > <a href="#" data-abc="true">Privacy &amp; Cookies</a> &nbsp; &nbsp; <a href="#" data-abc="true">Accessibility</a> </p>
-    </section>
-</footer>
+    </form>
+    <p class = center>---</p>
+    </body>
+ <footer class = "bottom"></footer>
+ <script src= "footer.js"></script>
 
 </html>
