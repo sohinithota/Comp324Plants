@@ -82,6 +82,12 @@ from week 4
     margin-left: auto;
     margin-right: auto;
 }
+.centerpicture{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 input[type=textform], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */
