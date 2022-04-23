@@ -27,7 +27,7 @@ bottom.innerHTML =`
 
 
       <tr>
-        <td><a href="../index.html">Home</a></td>
+        <td><a href="index.html">Home</a></td>
         <td><a href ="Footer/compliant.html">Open Dispute</a></td>
         <td><a href>My Carts</a></td>
 
