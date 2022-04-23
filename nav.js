@@ -1,7 +1,6 @@
 const createTopNav = () => {
 let topnav= document.querySelector('.topnav')
 
-
 topnav.innerHTML =`
     <div class = "nav">
       <div class="center">
