@@ -3,6 +3,7 @@ let topnav= document.querySelector('.topnav')
 
 topnav.innerHTML =`
     <div class = "nav">
+     <a href="index.html"><img class="logo" src="images/Plantipush.jpg"></a>
       <div class="center">
         <div class="nav-items">
           <div class="search">

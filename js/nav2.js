@@ -2,13 +2,14 @@ const createTopNav = () => {
 let topnav= document.querySelector('.innertopnav')
 
 topnav.innerHTML =`
+    <a href="../index.html"><img class="logo" src="../images/Plantipush.jpg"></a>
     <div class = "nav">
       <div class="center">
         <div class="nav-items">
           <div class="search">
           <input type="text" class="search-box" placeholder="search product">
           <button class="search-btn">search</button>
-          <a href="index.html">Home</a>
+          <a href="../index.html">Home</a>
           <a href="Footer/Login.html"><i class="fa-solid fa-user"></i></a>
           <a href="wishlist.html"><i class="fa-solid fa-list"></i></a>
           </div>
@@ -27,3 +28,6 @@ topnav.innerHTML =`
 }
 
 createTopNav();
+
+
+

@@ -60,7 +60,7 @@
 		    border: none;
 		    outline: none;
 		    font-weight: bold;
-		    color: #fafafa;
+		    color: blue;
 		    cursor: pointer;
 		}
 		section div span{
@@ -148,7 +148,8 @@
 			margin: auto;
 		}
 		.select.display{
-			top: 10px;
+			top: 20px;
+			display: flex;
 		}
 		.select div{
 			width: 100%;
@@ -172,7 +173,7 @@
 			position: absolute;
 			left: 45%;
 			top: 50%;
-			color: white;
+			color: blue;
 		}
 		.select div button{
 			left: 60%;
