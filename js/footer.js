@@ -11,22 +11,22 @@ bottom.innerHTML =`
       </tr>
 
       <tr>
-        <td><a href="Footer/AboutUs.html" >About us</a></td>
-        <td><a href="Footer/shipping.html">Shipping</a></td>
-        <td><a href = "Footer/Login.html">User Login</a></td>
+        <td><a href="../Footer/AboutUs.html" >About us</a></td>
+        <td><a href="../Footer/shipping.html">Shipping</a></td>
+        <td><a href = "../Footer/Login.html">User Login</a></td>
       </tr>
 
       <tr>
-        <td><a href="Footer/terms.html">Terms & Condition</a></td>
+        <td><a href="../Footer/terms.html">Terms & Condition</a></td>
         <td><a href>Services</a></td>
-        <td><a href="Footer/Register.html">User Register</a></td>
+        <td><a href="../Footer/Register.html">User Register</a></td>
       </tr>
 
 
 
       <tr>
-        <td><a href="index.html">Home</a></td>
-        <td><a href ="Footer/compliant.html">Open Dispute</a></td>
+        <td><a href="../index.html">Home</a></td>
+        <td><a href ="../Footer/compliant.html">Open Dispute</a></td>
         <td><a href>My Carts</a></td>
 
       </tr>
