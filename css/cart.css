@@ -35,15 +35,15 @@
 			justify-content: space-around;
 		}
 		section div{
-			width: 22%;
+			width: 100%;
 			height: 93%;
 			background:#f5f5f5;
 			padding: 1%;
 			position: relative;
 		}
 		img{
-			width: 300px;
-			height: 186px;
+			width: 100%;
+			height: 70%;
 		}
 
 		p{
@@ -60,7 +60,7 @@
 		    border: none;
 		    outline: none;
 		    font-weight: bold;
-		    color: #fafafa;
+		    color: green;
 		    cursor: pointer;
 		}
 		section div span{
