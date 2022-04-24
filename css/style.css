@@ -4,6 +4,7 @@ margin: auto;
 background: #fff;
 font-size: 16px;
 font-family: "Times New Roman", Georgia, Serif;
+padding: 0px;
 }
 h3 {
 font-size: 1.75em;
@@ -22,6 +23,7 @@ font-size: 0.8em;
 table {
     width:600px;
     border-collapse: collapse;
+
 }
 
 th, td {
@@ -172,8 +174,8 @@ input[type=submit]:hover {
 .best-sellers{
   display: flex;
   align-content: center;
-  margin-right: 20px;
-  padding-left: 150px;
+  padding-left: 10px;
+  margin: -20px;
   text-align: center;
 
 }
@@ -189,3 +191,10 @@ input[type=submit]:hover {
 
 img{
 display:flex;}
+
+footer{
+position: sticky;
+padding-top: 8%;
+text-align: center;
+
+}
