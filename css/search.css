@@ -1,0 +1,27 @@
+/*Search styles*/
+
+.mySearch{
+  width: auto;
+  font-size: 10px;
+  padding: 10px;
+  border: 5px solid black;
+
+}
+
+.myMenu{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-size: 15px;
+}
+
+.myMenu li a{
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.myMenu li a:hover{
+  background-color: blue;
+}

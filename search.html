@@ -4,19 +4,47 @@
     <!-- kit code for <head> -->
     <script src="https://kit.fontawesome.com/7ddbd1490a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Plant Store</title>
-    <a href="#"><img id="logo" src="images/Plantipush.jpg"></a>
-    <nav class= "topnav"></nav>
-    <script src="nav.js"></script>
+    <link rel="stylesheet" href="css/search.css">
+    <title>Search Menu</title>
+
+
   </head>
   <body>
     <div class="center">
-      <section class= "Search Results">
-        <h4 class="heading">Search Results <span>item</span></h4>
-      </section>
-  </div>
+      <div class="search-results">
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search..." title="Type in a category">
+        <ul id="myMenu">
+          <li><a href="house-plants.html">House Plants</a></li>
+          <li><a href="succulents.html">Succulents</a></li>
+          <li><a href="planters.html">Planters</a></li>
+          <li><a href="plant-accessories.html">Plant Accessories</a></li>
+        </ul>
+
+     </div>
+     <script>
+     function myFunction() {
+       // Declare variables
+       var input, filter, ul, li, a, i;
+       input = document.getElementById("mySearch");
+       filter = input.value.toUpperCase();
+       ul = document.getElementById("myMenu");
+       li = ul.getElementsByTagName("li");
+
+       // Loop through all list items, and hide those who don't match the search query
+       for (i = 0; i < li.length; i++) {
+         a = li[i].getElementsByTagName("a")[0];
+         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+           li[i].style.display = "";
+         } else {
+           li[i].style.display = "none";
+         }
+       }
+     }
+
+      </script>
+
   </body>
   <footer class = "bottom"></footer>
-  <script src= "footer.js"></script>
-
+  <script src= "js/footer.js"></script>
+  <script class="js/search-menu.js"</script>
 </html>
