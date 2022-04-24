@@ -7,6 +7,7 @@ font-family: "Times New Roman", Georgia, Serif;
 }
 h3 {
 font-size: 1.75em;
+
 }
 header {
 border-bottom: 1px solid #dedede;
@@ -162,16 +163,18 @@ input[type=submit]:hover {
     text-transform: capitalize;
     font-weight: 200;
     margin-bottom: 10px;
-    margin-left: 200px;
+    margin-left: 100px;
     align-items: center;
     padding: 2px;
+    display: flex;
 }
 
 .best-sellers{
   display: flex;
   align-content: center;
   margin-right: 20px;
-  padding-left: 200px;
+  padding-left: 150px;
+  text-align: center;
 
 }
 
@@ -183,3 +186,6 @@ input[type=submit]:hover {
     margin-bottom: 20px;
     margin-left: 10px;
 }
+
+img{
+display:flex;}
