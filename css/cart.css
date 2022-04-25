@@ -148,7 +148,8 @@
 			margin: auto;
 		}
 		.select.display{
-			top: 10px;
+			top: 25%;
+			display: flex;
 		}
 		.select div{
 			width: 100%;
