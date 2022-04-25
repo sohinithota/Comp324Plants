@@ -8,7 +8,7 @@ topnav.innerHTML =`
         <div class="nav-items">
           <a href="index.html">Home</a>
           <a href="search.html"><i class="fa-solid fa-magnifying-glass"></i>
-          <a href="footer/Login.html"><i class="fa-solid fa-user"></i></a>
+          <a href="Login.html"><i class="fa-solid fa-user"></i></a>
           <a href="wishlist.html"><i class="fa-solid fa-list"></i></a>
         </div>
       </div>
