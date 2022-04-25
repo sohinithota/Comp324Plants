@@ -6,7 +6,7 @@ h1{
 width: 3%;
 position: relative;
 top: 60px;
-left: 90%
+left: 90%;
 cursor: pointer;
 }
 h1:before{
