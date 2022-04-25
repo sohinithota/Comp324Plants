@@ -11,8 +11,10 @@ Sohini's contribution:
 Michael's contribution:
 - footer creation 
 - general styling 
+- registering users
 - firebase 
 
 Youa's contribution: 
-- wishlist creation 
-- registering users 
+- search menu creation 
+- javascripts for footers & navigation creations
+- general navigation styling 
