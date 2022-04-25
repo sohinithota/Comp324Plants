@@ -39,7 +39,7 @@ const createFooter = () => {
       <a href="#"  data-abc="true"><img class="img1" src="https://i.imgur.com/47q2YGt.png" height="40" width="123"></a>
     </aside>
     <section class = "centertable">
-      <p> © 2022 Plantstill All rights reserved </p>
+      <p> © 2022 Plantipush All rights reserved </p>
       <p target="_blank" > <a href="#" data-abc="true">Privacy &amp; Cookies</a> &nbsp; &nbsp; <a href="#" data-abc="true">Accessibility</a> </p>
     </section>
   </div>
