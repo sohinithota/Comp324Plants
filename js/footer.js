@@ -34,9 +34,9 @@ bottom.innerHTML =`
       </tr>
 
     </table>
-    <aside class = "centertable">
-      <h6 class="title">Our app</h6> <a href="#"  data-abc="true"><img class="img-responsive" src="https://i.imgur.com/nkZP7fe.png" height="40"></a>
-      <a href="#"  data-abc="true"><img class="img-responsive" src="https://i.imgur.com/47q2YGt.png" height="40" width="123"></a>
+    <aside class = "centerpicture">
+      <h6 class="centertable">Our app</h6> <a href="#"  data-abc="true"><img class="img1" src="https://i.imgur.com/nkZP7fe.png" height="40"></a>
+      <a href="#"  data-abc="true"><img class="img1" src="https://i.imgur.com/47q2YGt.png" height="40" width="123"></a>
     </aside>
     <section class = "centertable">
       <p> © 2022 Plantstill All rights reserved </p>
