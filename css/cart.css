@@ -28,7 +28,7 @@
 		opacity: 1;
 	}
 		section{
-			margin: 100px auto;
+			margin-left: -40px;
 			width: 90%;
 			height: 400px;
 			display: flex;
