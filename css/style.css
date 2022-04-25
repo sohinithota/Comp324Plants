@@ -83,6 +83,12 @@ from week 4
     margin-left: auto;
     margin-right: auto;
 }
+.centerpicture{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .logopicture{
     float: left;
     margin-left: 0px;
@@ -189,3 +195,10 @@ input[type=submit]:hover {
 
 img{
 display:flex;}
+
+.img1{
+    margin-right: auto;
+    margin-left: auto;
+    width: 35%;
+    height: 25%;
+}
