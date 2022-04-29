@@ -10,21 +10,27 @@
     <title>Plant Store</title>
     <nav class= "innertopnav"></nav>
     <script src="../js/nav2.js"></script>
+    <script type="module" src = "../js/auth.js"></script>
+    <script type = module src="../js/practicce.js "></script>
+    <script type = "module">
+        import {createAuth } from "../js/practicce.js";
+        document.getElementById("loginAuth").addEventListener("click",createAuth);
+    </script>
 </head>
 
 <body >
 
-<form class = "center" action="action_page.php" style="border:0px solid #ccc">
+<form class = "center"  style="border:0px solid #ccc">
     <div class="container">
         <h1 style = "color:green">Login</h1>
         <p>Please fill in this form to create an account.</p>
 
 
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
+        <label for="emailAuth"><b>Email</b></label>
+        <input type="text" id = "emailAuth"placeholder="Enter Email" name="email" required>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="pswAuth"><b>Password</b></label>
+        <input type="password" id = "pswAuth" placeholder="Enter Password" name="psw" required>
 
 
         <label>
@@ -35,7 +41,7 @@
 
         <div class="clearfix">
             <button type="button" class="cancelbtn">Cancel</button>
-            <button type="submit" class="signupbtn">Login</button>
+            <button type="submit" id = "loginAuth"  class="signupbtn">Login</button>
         </div>
     </div>
 

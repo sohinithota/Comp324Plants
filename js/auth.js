@@ -43,12 +43,11 @@ export function createFirebase() {
     }
 }
 export function Auth() {
-    alert( document.getElementById("emailAuth").value);
     createUserWithEmailAndPassword(auth, document.getElementById("emailAuth").value, document.getElementById("pswAuth").value)
         .then((userCredential) => {
             // Signed in
             const user = userCredential.user;
-            alert("soemthing");
+
             // ...
         })
         .catch((error) => {
