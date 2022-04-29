@@ -10,54 +10,59 @@
     <title>Plant Store</title>
     <nav class= "innertopnav"></nav>
     <script src="../js/nav2.js"></script>
+    <script type="module" src = "../js/auth.js"></script>
+    <script type = module src="../js/practicce.js "></script>
+    <script type = "module">
+      import {myfunction } from "../js/practicce.js";
+      document.getElementById("complaintsubmit").addEventListener("click",myfunction);
+    </script>
   </head>
   <p class = center>...</p>
 
   <body  >
-  <div >
+
     <hr >
     <h1 class = center style = "color:green">Report Complaint</h1>
     <p class = center>Please report any problems you had with our company here. We will get back to you. </p>
     <hr>
-    <div class="container">
-      <form action="action_page.php">
 
-        <label for="fname">First Name</label>
-        <input type="textform" id="fname" name="firstname" placeholder="Your name..">
+
+        <div class="container">
+
+        <label for="fname1">First Name</label>
+        <input type="textform" id="fname1" name="firstname" placeholder="Your name.." >
 
         <label for="lname">Last Name</label>
-        <input type="textform" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="textform" id="lname" name="lastname" placeholder="Your last name.." >
 
         <label for="ordernum">Order number</label>
-        <input type="textform" id ="ordernum" name="Ordernumber" placeholder="Order Number..">
+        <input type="textform" id ="ordernum" name="Ordernumber" placeholder="Order Number.." >
 
         <label for="email">Acount Email</label>
-        <input type="textform" id ="email" name="acountemail" placeholder="Account Email...">
+        <input type="textform" id ="email" name="acountemail" placeholder="Account Email..." >
 
         <p>-</p>
         <div >
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
         </div>
         <p >---</p>
 
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something about the problem you had.." style="width:800px"></textarea>
-
-        <input type="submit" value="Submit">
-
-      </form>
     </div>
-  </div>
+
+    <button  id ="complaintsubmit"  >SUBMIT</button>
 
 
-  </div>
 
-  <p class = center>...</p>
+
+
+    <p class = center>...</p>
   </body>
 
   <footer class = "bottom"></footer>
