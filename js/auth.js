@@ -4,7 +4,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-analytics.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
 import { collection, addDoc } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
-import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-auth.js";
+import { getAuth, createUserWithEmailAndPassword,signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-auth.js";
 
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -43,17 +43,43 @@ export function createFirebase() {
     }
 }
 export function Auth() {
-    createUserWithEmailAndPassword(auth, document.getElementById("emailAuth").value, document.getElementById("pswAuth").value)
+
+    signInWithEmailAndPassword(auth, document.getElementById("emailAuth").value, document.getElementById("pswAuth").value)
         .then((userCredential) => {
             // Signed in
             const user = userCredential.user;
-
             // ...
+            alert(document.getElementById("emailAuth").value + " " + " Signed in!");
         })
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
             alert(errorCode);
-            // ..
         });
+}
+export function LoginAuth()
+{
+    const pas1 = document.getElementById("psw").value;
+    const pas2 = document.getElementById("psw-repeat").value;
+
+    if (pas1.match(pas2))
+    {
+
+        createUserWithEmailAndPassword(auth,document.getElementById("emailRegister").value, pas1)
+            .then((userCredential) => {
+                // Signed in
+                const user = userCredential.user;
+
+                // ...
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                alert(errorCode);
+                // ..
+            });
+    }
+    else
+        alert("error passwords dont match");
+
 }

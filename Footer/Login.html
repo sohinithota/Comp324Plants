@@ -13,8 +13,8 @@
     <script type="module" src = "../js/auth.js"></script>
     <script type = module src="../js/practicce.js "></script>
     <script type = "module">
-        import {createAuth } from "../js/practicce.js";
-        document.getElementById("loginAuth").addEventListener("click",createAuth);
+        import {LoginCheck} from "../js/practicce.js";
+        document.getElementById("loginAuth").addEventListener("click",LoginCheck);
     </script>
 </head>
 
@@ -41,11 +41,13 @@
 
         <div class="clearfix">
             <button type="button" class="cancelbtn">Cancel</button>
-            <button type="submit" id = "loginAuth"  class="signupbtn">Login</button>
+
         </div>
     </div>
 
     </form>
+    <button class = "centerpicture" id = "loginAuth"  class="signupbtn">Login</button>
+
 
     <p class = center>---</p>
     </body>
