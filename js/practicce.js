@@ -1,4 +1,4 @@
-import {createFirebase} from "../js/auth.js";
+import {createFirebase, LoginAuth} from "../js/auth.js";
 import {Auth} from "../js/auth.js";
 
 export function myfunction() {
@@ -11,6 +11,12 @@ export function myfunction() {
 export function createAuth()
 {
     //location.replace("../footer/AboutUs.html");
+    LoginAuth();
+
+}
+
+export function LoginCheck()
+{
     Auth();
 }
 

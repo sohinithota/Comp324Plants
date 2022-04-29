@@ -10,7 +10,12 @@
     <title>Plant Store</title>
     <nav class= "innertopnav"></nav>
     <script src="../js/nav2.js"></script>
-
+    <script type="module" src = "../js/auth.js"></script>
+    <script type = module src="../js/practicce.js "></script>
+    <script type = "module">
+      import {createAuth} from "../js/practicce.js";
+      document.getElementById("register").addEventListener("click",createAuth);
+    </script>
   </head>
 
 
@@ -21,8 +26,8 @@
     <p>Please fill in this form to create an account.</p>
 
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <label for="emailRegister"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="emailRegister" required>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
@@ -31,9 +36,9 @@
     <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
 
      <p>By creating an account you agree to our <a href="terms.html">Terms & Privacy</a>.</p>
-    <button type="submit" >Register</button>
-  </div>
 
+  </div >
+  <button class = "centerpicture" type="submit" id = "register" >Register</button>
   <div>
     <p>Already have an account? <a href="Login.html">Sign in</a>.</p>
   </div>
