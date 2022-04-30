@@ -10,6 +10,7 @@ Sohini's contribution:
 
 Michael's contribution:
 - footer creation 
+- services creation(about us,terms,dispute,login)
 - general styling 
 - registering users
 - firebase 
