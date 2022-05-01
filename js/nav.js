@@ -7,8 +7,7 @@ topnav.innerHTML =`
         <ul>
           <li><a href="home.html"><i class="fa-solid fa-house"></i></a></li>
           <li><a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-          <li><a href="footer/Login.html"><i class="fa-solid fa-user"></i></a><li>
-          <li><a href="wishlist.html"><i class="fa-solid fa-list"></i></a><li>
+          <li><a href="Footer/Login.html"><i class="fa-solid fa-user"></i></a><li>
           <li><a href="navigation/house-plants.html">house plants</a></li>
           <li><a href="navigation/succulents.html">succulents</a></li>
           <li><a href="navigation/planters.html">planters</a></li>
