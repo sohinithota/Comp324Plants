@@ -1,0 +1,49 @@
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+  background-color: gray;
+  padding: 15px;
+}
+
+.grid-container > div {
+  background-color: #b3ffd9;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+
+.nav{
+    display: grid;
+    font size: 200px;
+  }
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+.nav li {
+  display: block;
+  float: left;
+  margin: 0;
+  border: 10px white;
+}
+
+.nav li a {
+  display: flex;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: white;
+}
