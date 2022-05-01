@@ -1,26 +1,15 @@
+/*CSS for topnav bar*/
 
-.navbar{
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #f5f5f5;
-    z-index: 9;
+.logopicture{
+    display: grid;
+
 }
 
-.nav{
-    padding: 10px 10vw;
+.topnav{
     display: flex;
-    justify-content: space-between;
-}
-
-.brand-logo{
-    height: 60px;
-}
-
-.nav-items{
-    display: flex;
-    align-items: center;
+    grid-template-columns: auto;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .search{
@@ -58,21 +47,4 @@
 
 .search-box::placeholder{
     color: #a9a9a9;
-}
-
-.nav-items a{
-    margin-left: 20px;
-}
-
-.nav-items a img{
-    width: 30px;
-}
-
-.topnav{
-    float: right;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #f5f5f5;
-    z-index: 9;
 }
