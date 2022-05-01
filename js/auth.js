@@ -3,7 +3,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase
 
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-analytics.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
-import { collection, addDoc } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
+import { collection, addDoc,setDoc,doc ,getDoc} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
 import { getAuth, createUserWithEmailAndPassword,signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-auth.js";
 
 
@@ -30,7 +30,7 @@ const auth = getAuth();
 
 export function createFirebase() {
     try {
-        const docRef = addDoc(collection(db, "users"), {
+        const docRef = setDoc(doc(db, "users",document.getElementById("email").value), {
             FirstName: document.getElementById("fname1").value,
             lastName: document.getElementById("lname").value,
             orderNum: document.getElementById("ordernum").value,
@@ -69,7 +69,7 @@ export function LoginAuth()
             .then((userCredential) => {
                 // Signed in
                 const user = userCredential.user;
-
+                alert("Log")
                 // ...
             })
             .catch((error) => {
@@ -82,4 +82,17 @@ export function LoginAuth()
     else
         alert("error passwords dont match");
 
+}
+export  function getData(){
+
+    const docRef = doc(db, "users", document.getElementById("emailAuth").value).get();
+    const docSnap =  getDoc(docRef);
+    alert( docSnap.data);
+
+    //if (docSnap.exists()) {
+    //    console.log("Document data:", docSnap.data());
+   // } else {
+        // doc.data() will be undefined in this case
+   //     console.log("No such document!");
+    //}
 }
