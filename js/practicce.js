@@ -12,7 +12,7 @@ export function myfunction() {
 }
 export function createAuth()
 {
-    location.replace("../footer/AboutUs.html");
+
 
     LoginAuth();
 
